@@ -73,6 +73,7 @@ echo "Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"" >> /etc/system
 systemctl restart kubelet
 
 systemctl daemon-reload
+#this is my latest update
 
 
 
